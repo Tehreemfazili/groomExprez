@@ -1,6 +1,7 @@
-package com.example.groomexprez
+package com.example.groomexprez.ui
 
 import android.os.Bundle
+import com.example.groomexprez.R
 import com.example.groomexprez.common.BaseActivity
 import com.example.groomexprez.databinding.ActivityRegistrationBinding
 import com.example.groomexprez.utils.setErrorMessage

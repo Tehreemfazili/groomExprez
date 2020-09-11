@@ -1,14 +1,14 @@
-package com.example.groomexprez
+package com.example.groomexprez.dialog
 
 import android.app.Dialog
 import android.content.DialogInterface
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
-import android.view.WindowManager
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
+import com.example.groomexprez.R
 
 class ProgressDialogFragment : DialogFragment() {
     private var tvTitle: TextView? = null
@@ -69,7 +69,8 @@ class ProgressDialogFragment : DialogFragment() {
         }
 
         fun build(): ProgressDialogFragment {
-            val fragment = ProgressDialogFragment()
+            val fragment =
+                ProgressDialogFragment()
             val bundle = Bundle()
             bundle.putString("title", if (mTitle != null) mTitle else "")
             fragment.arguments = bundle

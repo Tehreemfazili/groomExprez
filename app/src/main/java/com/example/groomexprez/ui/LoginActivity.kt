@@ -1,10 +1,11 @@
-package com.example.groomexprez
+package com.example.groomexprez.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextUtils
 import android.text.TextWatcher
+import com.example.groomexprez.R
 import com.example.groomexprez.common.BaseActivity
 import com.example.groomexprez.databinding.ActivityLoginBinding
 import com.example.groomexprez.utils.clearErrorMessage

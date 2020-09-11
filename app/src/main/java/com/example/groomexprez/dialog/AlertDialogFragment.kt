@@ -1,4 +1,4 @@
-package com.example.groomexprez
+package com.example.groomexprez.dialog
 
 import android.app.Dialog
 import android.graphics.Color
@@ -9,8 +9,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
-import androidx.core.text.HtmlCompat
 import androidx.fragment.app.DialogFragment
+import com.example.groomexprez.R
 import com.example.groomexprez.databinding.DialogLayoutAlertBinding
 
 class AlertDialogFragment : DialogFragment() {
@@ -110,7 +110,8 @@ class AlertDialogFragment : DialogFragment() {
             }
 
             fun build(): AlertDialogFragment {
-                val fragment = AlertDialogFragment()
+                val fragment =
+                    AlertDialogFragment()
                 val bundle = Bundle()
 
 

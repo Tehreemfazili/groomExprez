@@ -1,4 +1,4 @@
-package com.example.groomexprez
+package com.example.groomexprez.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -16,7 +16,11 @@ class BookingActivity : BaseActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding.viewPager.adapter = SwipeAdapter(supportFragmentManager, fragmentList())
+        binding.viewPager.adapter =
+            SwipeAdapter(
+                supportFragmentManager,
+                fragmentList()
+            )
 
     }
 

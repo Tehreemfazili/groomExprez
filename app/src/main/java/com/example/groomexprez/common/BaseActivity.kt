@@ -10,8 +10,8 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import androidx.annotation.DrawableRes
 import androidx.appcompat.app.AppCompatActivity
-import com.example.groomexprez.AlertDialogFragment
-import com.example.groomexprez.ProgressDialogFragment
+import com.example.groomexprez.dialog.AlertDialogFragment
+import com.example.groomexprez.dialog.ProgressDialogFragment
 import com.example.groomexprez.R
 
 abstract class BaseActivity : AppCompatActivity(){
