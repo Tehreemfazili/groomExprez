@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Groom Exprez</string>
+    <string name="processing">Processing</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="groom_exprez">GROOM Exprez</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">or</string>
+    <string name="register_here">Register Here</string>
+    <string name="enter_password">Please enter password</string>
+    <string name="invalid_password">Invalid password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="success">Success!</string>
+</resources>

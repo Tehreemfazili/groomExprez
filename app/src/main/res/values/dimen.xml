@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_48">48dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_6">6dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+    <dimen name="dimen_2">2dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="dimen_36">36dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_64">64dp</dimen>
+    <dimen name="dimen_72">72dp</dimen>
+    <dimen name="dimen_120">120dp</dimen>
+    <dimen name="dimen_80">80dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="drawer_width">256dp</dimen>
+    <dimen name="dimen_18">18dp</dimen>
+    <dimen name="dimen_28">28dp</dimen>
+    <dimen name="dimen_290">290dp</dimen>
+    <dimen name="dimen_100">100dp</dimen>
+    <dimen name="dimen_56">56dp</dimen>
+    <dimen name="card_radius">12dp</dimen>
+    <dimen name="dimen_90">90dp</dimen>
+    <dimen name="qr_width">150dp</dimen>
+    <dimen name="qr_height">150dp</dimen>
+    <dimen name="qr_margin_start_end">@dimen/dimen_16</dimen>
+    <dimen name="qr_margin_top_bottom">@dimen/dimen_16</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="bottom_sheet_corner_radius">16dp</dimen>
+    <dimen name="bottom_sheet_top_padding">8dp</dimen>
+    <dimen name="progress_bar_width_sm">@dimen/dimen_36</dimen>
+    <dimen name="progress_bar_height_sm">@dimen/dimen_36</dimen>
+    <dimen name="space">8dp</dimen>
+    <dimen name="dimen_38" >38dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="row_height">44dp</dimen>
+    <dimen name="day_label_size_events_enabled">30dp</dimen>
+    <dimen name="day_label_focus_size_events_enabled">34dp</dimen>
+    <dimen name="day_label_size_events_disabled">38dp</dimen>
+    <dimen name="day_label_focus_size_events_disabled">42dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="business_card_width">262.5dip</dimen>
+    <dimen name="business_card_height">150.0dip</dimen>
+
+    <dimen name="badge_text_size">12sp</dimen>
+    <dimen name="text_xx_small">6sp</dimen>
+    <dimen name="text_x_small">8sp</dimen>
+    <dimen name="text_small">10sp</dimen>
+    <dimen name="text_normal">12sp</dimen>
+    <dimen name="text_title">16sp</dimen>
+
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_3">3dp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="text_19">19sp</dimen>
+    <dimen name="text_8">8sp</dimen>
+    <dimen name="text_9">9sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <dimen name="text_32">32sp</dimen>
+
+    <dimen name="actionBarSize">72dp</dimen>
+    <dimen name="button_corner">40dp</dimen>
+    <dimen name="card_elevation">10dp</dimen>
+    <dimen name="image_view">70dp</dimen>
+    <dimen name="text_4">4sp</dimen>
+    <dimen name="text_3">3sp</dimen>
+
+</resources>
