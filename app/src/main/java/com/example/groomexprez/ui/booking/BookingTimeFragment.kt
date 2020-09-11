@@ -1,4 +1,4 @@
-package com.example.groomexprez.ui
+package com.example.groomexprez.ui.booking
 
 import android.os.Bundle
 import android.view.LayoutInflater

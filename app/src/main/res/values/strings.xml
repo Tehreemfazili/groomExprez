@@ -16,4 +16,9 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="register">Register</string>
     <string name="success">Success!</string>
+    <string name="welcome_to_groom_exprez">Welcome to Groom Exprez</string>
+    <string name="description">Stay safe and let us take care of all of your grooming services. We create an environment for your services which is safe and secure to avoid going out and getting infected by covid-19 We have a very good and dedicated team of barbers that know what they have to do and deliver you the perfect haircut."</string>
+    <string name="for_booking_click_here">For Booking click Here</string>
+    <string name="order_booking_description">Interested In Our Barbar Services? Just Order Now Or Call +91-9828031847</string>
+
 </resources>

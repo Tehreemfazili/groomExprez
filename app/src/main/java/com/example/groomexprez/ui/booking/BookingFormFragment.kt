@@ -1,4 +1,4 @@
-package com.example.groomexprez.ui
+package com.example.groomexprez.ui.booking
 
 import androidx.fragment.app.Fragment
 
