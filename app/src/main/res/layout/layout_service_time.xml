@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<TextView
+    android:id="@+id/tv_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/AppTextAppearance.Subtitle2.ExtraBold"
+    android:text="@string/booking"
+    android:padding="@dimen/dimen_8"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+<TextView
+    android:id="@+id/tv_sub_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dimen_8"
+    android:text="@string/let_s_make_an_appointment_for_your_life"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    style="@style/AppTextAppearance.Subtitle2"
+    app:layout_constraintTop_toBottomOf="@id/tv_title"/>
+
+
+<TextView
+    android:id="@+id/tv_booking_num"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="@dimen/dimen_8"
+    style="@style/AppTextAppearance.Subtitle2.Bold"
+    android:text="@string/booking_call_91_9828031847"
+    app:layout_constraintTop_toBottomOf="@id/tv_sub_title"/>
+
+<View
+    android:id="@+id/view"
+    android:layout_width="100dp"
+    android:layout_height="1dp"
+    app:layout_constraintTop_toBottomOf="@id/tv_booking_num"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"/>
+
+
+<TextView
+    android:id="@+id/tv_description"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/booking_description"
+    style="@style/AppTextAppearance.Subtitle2"
+    android:gravity="center"
+    android:padding="@dimen/dimen_8"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/view"
+    app:layout_constraintStart_toStartOf="parent"/>
+
+<LinearLayout
+    android:id="@+id/layout_timing"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/tv_description"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <include layout="@layout/timing_layout" />
+</LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

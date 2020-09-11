@@ -20,5 +20,26 @@
     <string name="description">Stay safe and let us take care of all of your grooming services. We create an environment for your services which is safe and secure to avoid going out and getting infected by covid-19 We have a very good and dedicated team of barbers that know what they have to do and deliver you the perfect haircut."</string>
     <string name="for_booking_click_here">For Booking click Here</string>
     <string name="order_booking_description">Interested In Our Barbar Services? Just Order Now Or Call +91-9828031847</string>
+    <string name="let_s_make_an_appointment_for_your_life">LET\'S MAKE AN APPOINTMENT FOR YOUR LIFE</string>
+    <string name="booking">Booking</string>
+    <string name="booking_description">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</string>
+    <string name="opening_time">Opening Time</string>
+    <string name="monday_to_friday">Monday to Friday</string>
+    <string name="_9am_6pm">9AM - 6PM</string>
+    <string name="saturday">Saturday</string>
+    <string name="_10am_4pm">10AM - 4PM</string>
+    <string name="sunday">Sunday</string>
+    <string name="closed">Closed</string>
+    <string name="proceed_to_booking_form">Proceed to Booking Form</string>
+    <string name="booking_call_91_9828031847">Booking call +91-9828031847</string>
+    <string name="booking_form">Booking form</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone">Phone</string>
+    <string name="date">Date</string>
+    <string name="more_information">More Information</string>
+    <string name="submit">Submit</string>
 
 </resources>

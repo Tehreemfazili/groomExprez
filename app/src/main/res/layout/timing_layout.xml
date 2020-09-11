@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/dimen_16"
+    android:padding="@dimen/dimen_8"
+    app:cardCornerRadius="@dimen/dimen_8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimen_12">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/AppTextAppearance.Subtitle2.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_8"
+            android:text="@string/opening_time"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tv_mon_fri"
+            style="@style/AppTextAppearance.Subtitle2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/monday_to_friday"
+            app:layout_constraintEnd_toStartOf="@id/tv_mon_time"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+        <TextView
+            android:id="@+id/tv_mon_time"
+            style="@style/AppTextAppearance.Subtitle2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_9am_6pm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_mon_fri"
+            app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+        <TextView
+            android:id="@+id/tv_saturday"
+            style="@style/AppTextAppearance.Subtitle2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/saturday"
+            app:layout_constraintEnd_toStartOf="@id/tv_saturday_time"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_mon_fri" />
+
+        <TextView
+            android:id="@+id/tv_saturday_time"
+            style="@style/AppTextAppearance.Subtitle2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_10am_4pm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_saturday"
+            app:layout_constraintTop_toBottomOf="@id/tv_mon_fri" />
+
+        <TextView
+            android:id="@+id/tv_sunday"
+            style="@style/AppTextAppearance.Subtitle2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sunday"
+            app:layout_constraintEnd_toStartOf="@id/tv_sunday_time"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_saturday" />
+
+        <TextView
+            android:id="@+id/tv_sunday_time"
+            style="@style/AppTextAppearance.Subtitle2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/closed"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_sunday"
+            app:layout_constraintTop_toBottomOf="@id/tv_saturday" />
+
+        <TextView
+            android:id="@+id/tv_proceed"
+            style="@style/AppTextAppearance.Subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_16"
+            android:background="@drawable/ic_background_yellow"
+            android:gravity="center"
+            android:padding="@dimen/dimen_12"
+            android:text="@string/proceed_to_booking_form"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_sunday" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
